@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const menuItems = <>
-        <li><a href='#home' className='font-bold'>Home</a></li>
-        <li><a href='#about' className='font-bold'>About</a></li>
-        <li><a href='#projects' className='font-bold'>Project</a></li>
-        <li><a href='#contact' className='font-bold'>Contact</a></li>
-        <li><a href='https://drive.google.com/uc?export=download&id=1FBZs6_rifYqGHihNxoPGWAQFicclUkq-' className='btn bg-orange-400'>Download Resume</a></li>
+        <li><Link to='/home' className='font-bold'>Home</Link></li>
+        <li><Link to='/about' className='font-bold'>About</Link></li>
+        <li><Link to='/projects' className='font-bold'>Project</Link></li>
+        <li><Link to='/contact' className='font-bold'>Contact</Link></li>
+        <li><Link to='/blogs' className='font-bold'>Blogs</Link></li>
+        <li><Link to='https://drive.google.com/uc?export=download&id=1FBZs6_rifYqGHihNxoPGWAQFicclUkq-' className='btn bg-orange-400'>Download Resume</Link></li>
 
     </>
     return (
