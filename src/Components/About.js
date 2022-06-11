@@ -11,6 +11,12 @@ const About = () => {
         <div className='mx-8 mb-4' id='about'>
             <h2 className='text-2xl font-bold text-red-600 underline mt-12'>About Me</h2>
             
+            <li className='text-white  text-xl mt-4'>I am a very good Learner</li>
+            <li className='text-white  text-xl'>I can learn a new software or other subject very quickly</li>
+            <li className='text-white  text-xl'>My Communication Skill is not so poor. I can communicate with any type of person</li>
+            <li className='text-white  text-xl'>The main fact is, I love MYSELF </li>
+            
+            
             <h3 className='text-xl font-bold mt-4 underline text-green-600'>Technologies what I know</h3>
             <div className='grid lg:grid-cols-4 gap-16 mt-12'>
                 <div className='border-style'>

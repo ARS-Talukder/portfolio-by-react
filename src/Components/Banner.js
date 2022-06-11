@@ -10,7 +10,7 @@ const Banner = () => {
                 <h2 className='text-left text-white text-3xl font-bold'>I'M A <span className='text-orange-400'>WEB DEVELOPER</span></h2>
                 <p className='text-left text-white mt-2'>I'm dedicated Web Developer. I love to take challenges. I never stop myself before making a website look beautiful & functional. The most interesting fact is I'm a passionate Guitarist also</p>
                 
-                <p className='text-left my-4'><a href='https://drive.google.com/uc?export=download&id=1FBZs6_rifYqGHihNxoPGWAQFicclUkq-' className='btn bg-orange-400'>Download Resume</a></p>
+                <p className='text-left my-4'><a href='https://drive.google.com/uc?export=download&id=1vOyIblkH6pKLG-KuIqxEDJq4P4GuG97b' className='btn bg-orange-400'>Download Resume</a></p>
             </div>
             <div className='lg:mt-2 banner-img-div'>
                 <img src="https://i.ibb.co/V3mTnjP/Without-background.png" alt="myPicture" />

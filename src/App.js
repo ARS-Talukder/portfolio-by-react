@@ -6,11 +6,11 @@ import Home from './Components/Home';
 
 function App() {
   return (
-    <div className="App" style={{"backgroundColor":"#3D4451"}}>
+    <div className="App max-w-7xl mx-auto" style={{"backgroundColor":"#3D4451"}}>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
     </div>
