@@ -1,0 +1,9 @@
+.project-img{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 18px rgb(199, 25, 25);
+}
+.project-div{
+    border:2px solid #343a44;
+    border-radius: 5px;
+}
