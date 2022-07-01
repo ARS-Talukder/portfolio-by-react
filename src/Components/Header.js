@@ -8,7 +8,7 @@ const Header = () => {
         <li><a href='/#projects' className='font-bold'>Project</a></li>
         <li><a href='/#contact' className='font-bold'>Contact</a></li>
         <li><Link to='/blogs' className='font-bold'>Blogs</Link></li>
-        <li><a href='https://drive.google.com/file/d/1vOyIblkH6pKLG-KuIqxEDJq4P4GuG97b/view?usp=sharing' className='btn bg-orange-400'>Resume</a></li>
+        <li><a href='https://drive.google.com/file/d/1vOyIblkH6pKLG-KuIqxEDJq4P4GuG97b/view?usp=sharing' className='btn bg-orange-400 text-white'>Resume</a></li>
 
     </>
     return (
