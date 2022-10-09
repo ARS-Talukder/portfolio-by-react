@@ -21,6 +21,7 @@ const Banner = () => {
                                 'WEB DEVELOPER',
                                 2000,
                             ]}
+                            repeat={Infinity}
                             wrapper="span"
                         />
                     </span></h2>
@@ -28,7 +29,7 @@ const Banner = () => {
 
                 <p className='text-left text-white mt-2 font-bold'>I'm dedicated Web Developer. I love to take challenges. I never stop myself before making a website look beautiful & functional. The most interesting fact is I'm a passionate Guitarist also</p>
 
-                <p className='text-left my-4'><a href='https://drive.google.com/uc?export=download&id=1vOyIblkH6pKLG-KuIqxEDJq4P4GuG97b' className='btn bg-orange-400 text-black'>Download Resume</a></p>
+                <p className='text-left my-4'><a href='https://drive.google.com/uc?export=download&id=1kVEPLPWoxERjtl7yPZBgIMnmKqIxHru8' className='btn bg-orange-400 text-black'>Download Resume</a></p>
             </div>
             <div className='lg:mt-2 banner-img-div'>
                 <img src="https://i.ibb.co/V3mTnjP/Without-background.png" alt="myPicture" />

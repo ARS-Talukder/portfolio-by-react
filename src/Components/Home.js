@@ -6,6 +6,7 @@ import Mailer from './Mailer';
 import Projects from './Projects';
 
 const Home = () => {
+    console.log("Shadhin");
     return (
         <div>
             <Banner></Banner>
