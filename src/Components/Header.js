@@ -12,7 +12,7 @@ const Header = () => {
 
     </>
     return (
-        <div className="navbar bg-neutral text-neutral-content">
+        <div className="navbar text-neutral-content" style={{ "backgroundColor": "#292d36" }}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -22,7 +22,7 @@ const Header = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn normal-case text-2xl text-red-500 font-bold ml-8">Portfolio</Link>
+                <Link to="/" className="btn border-0 normal-case text-2xl text-red-500 font-bold ml-8" style={{ "backgroundColor": "#292d36" }}>Portfolio</Link>
             </div>
             <div className="navbar-center hidden lg:flex lg:ml-16">
                 <ul className="menu menu-horizontal p-0">

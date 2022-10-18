@@ -1,0 +1,42 @@
+[
+    {
+        "_id": 1,
+        "project_name": "The Golden Style",
+        "project_title": "This is a Men's Grooming modern website",
+        "project_category": "Full Stack Website",
+        "website_link": "https://the-golden-style.web.app/",
+        "client_side_link": "https://github.com/ARS-Talukder/the-golden-style-client-side",
+        "server_side_link": "https://github.com/ARS-Talukder/the-golden-style-server",
+        "home_image": "https://i.ibb.co/LPyzC6Z/project-the-golden-style-1.png"
+    },
+    {
+        "_id": 2,
+        "project_name": "ARS Car Parts",
+        "project_title": "A modern website for the parts of car management",
+        "project_category": "This is Full Stack Website",
+        "website_link": "https://ars-car-parts.web.app/",
+        "client_side_link": "https://github.com/ARS-Talukder/ars-car-parts-client-side",
+        "server_side_link": "https://github.com/ARS-Talukder/ars-car-parts-server-side",
+        "home_image": "https://i.ibb.co/dPzpgzt/project-1.png"
+    },
+    {
+        "_id": 3,
+        "project_name": "Electronics Warehouse",
+        "project_title": "A website for Electronics Gadgets stock management",
+        "project_category": "This is also a Full Stack Website",
+        "website_link": "https://warehouse-6cdc6.web.app/",
+        "client_side_link": "https://github.com/ARS-Talukder/warehouse-client-side",
+        "server_side_link": "https://github.com/ARS-Talukder/warehouse-serverr-side",
+        "home_image": "https://i.ibb.co/2YSzX4t/project-2.png"
+    },
+    {
+        "_id": 4,
+        "project_name": "Smile Dental Care",
+        "project_title": "A modern website for dental care and patient management",
+        "project_category": "This is Front-End Website",
+        "website_link": "https://assignment-10-5a266.web.app/",
+        "client_side_link": "https://github.com/ARS-Talukder/smile-dental-care",
+        "server_side_link": "not full stack",
+        "home_image": "https://i.ibb.co/27hm13g/project-3.png"
+    }
+]

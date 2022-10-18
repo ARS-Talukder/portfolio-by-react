@@ -1,16 +1,17 @@
 import React from 'react';
-import About from './About';
-import Banner from './Banner';
+import Banner from '../Banner/Banner';
+import About from '../About/About';
+import Mailer from '../Mailer/Mailer';
+import Projects from '../Projects/Projects';
+import Technologies from '../Technologies/Technologies';
 import Footer from './Footer';
-import Mailer from './Mailer';
-import Projects from './Projects';
 
 const Home = () => {
-    console.log("Shadhin");
     return (
         <div>
             <Banner></Banner>
             <About></About>
+            <Technologies></Technologies>
             <Projects></Projects>
             <Mailer></Mailer>
             <Footer></Footer>
