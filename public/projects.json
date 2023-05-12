@@ -13,7 +13,7 @@
         "_id": 2,
         "project_name": "ARS Car Parts",
         "project_title": "A modern website for the parts of car management",
-        "project_category": "This is Full Stack Website",
+        "project_category": "This is a Full Stack Website",
         "website_link": "https://ars-car-parts.web.app/",
         "client_side_link": "https://github.com/ARS-Talukder/ars-car-parts-client-side",
         "server_side_link": "https://github.com/ARS-Talukder/ars-car-parts-server-side",
@@ -21,6 +21,16 @@
     },
     {
         "_id": 3,
+        "project_name": "School Entry",
+        "project_title": "A website for student entry",
+        "project_category": "This is also a Full Stack Website",
+        "website_link": "https://school-entry.netlify.app/",
+        "client_side_link": "https://github.com/ARS-Talukder/school-entry",
+        "server_side_link": "https://github.com/ARS-Talukder/school-entry-server",
+        "home_image": "https://i.ibb.co/2M6N5pK/school-entry-1.png"
+    },
+    {
+        "_id": 4,
         "project_name": "Electronics Warehouse",
         "project_title": "A website for Electronics Gadgets stock management",
         "project_category": "This is also a Full Stack Website",
@@ -30,7 +40,7 @@
         "home_image": "https://i.ibb.co/2YSzX4t/project-2.png"
     },
     {
-        "_id": 4,
+        "_id": 5,
         "project_name": "Smile Dental Care",
         "project_title": "A modern website for dental care and patient management",
         "project_category": "This is Front-End Website",

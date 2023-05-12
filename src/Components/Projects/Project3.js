@@ -3,22 +3,21 @@ import { SiInternetexplorer, SiGithub } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 
-const Project2 = () => {
+const Project3 = () => {
     const project = {
-        project_name: "Electronics Warehouse",
-        project_title: "A website for Electronics Gadgets stock management",
-        project_category: "This is Full Stack Website",
-        website_link: "https://warehouse-6cdc6.web.app/",
-        client_side_link: "https://github.com/ARS-Talukder/warehouse-client-side",
-        server_side_link: "https://github.com/ARS-Talukder/warehouse-serverr-side",
+        project_name: "School Entry",
+        project_title: "A website for student entry",
+        project_category: "This is a Full Stack Website",
+        website_link: "https://school-entry.netlify.app/",
+        client_side_link: "https://github.com/ARS-Talukder/school-entry",
+        server_side_link: "https://github.com/ARS-Talukder/school-entry-server",
         images: [
-            { _id: 1, img: "https://i.ibb.co/2YSzX4t/project-2.png" },
-            { _id: 2, img: "https://i.ibb.co/xXxQ3wQ/project-2-b.png" },
-            { _id: 3, img: "https://i.ibb.co/37vZ5D5/project-2-c.png" }
+            { _id: 1, img: "https://i.ibb.co/2M6N5pK/school-entry-1.png" },
+            { _id: 2, img: "https://i.ibb.co/0nkMtST/school-entry-2.png" }
         ],
         features: [
-            { _id: 1, feature: "On this website, user can add, delete items." },
-            { _id: 2, feature: "User can also mange stock quantities." },
+            { _id: 1, feature: "On this website, user can add, delete students." },
+            { _id: 2, feature: "User can also edit students information." },
             { _id: 3, feature: "User Authentication has been implemented by using Firebase." }
         ]
     }
@@ -109,4 +108,4 @@ const Project2 = () => {
     );
 };
 
-export default Project2;
+export default Project3;

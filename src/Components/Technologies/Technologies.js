@@ -2,7 +2,7 @@ import React from 'react';
 import './Technologies.css';
 import { DiHtml5, DiCss3, DiNodejs, DiMongodb } from "react-icons/di";
 import { FaBootstrap, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiExpress, SiFirebase, SiReactrouter, SiHeroku, SiNetlify, SiJsonwebtokens, SiStripe } from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiFirebase, SiReactrouter, SiHeroku, SiNetlify, SiJsonwebtokens, SiStripe, SiAmericanairlines } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { GiFlowerEmblem, GiTwirlyFlower } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
@@ -149,6 +149,14 @@ const Technologies = () => {
                         <h2 className='text-xl text-gray-300 font-bold mt-4'>Render.com</h2>
                     </div>
                 </Zoom>
+
+                <Zoom>
+                    <div className='border-style'>
+                        <p className='text-center'><span className='text-7xl' style={{ "color": "#325fc7", "display": "inline-block" }}><SiAmericanairlines /></span></p>
+                        <h2 className='text-xl text-gray-300 font-bold mt-4'>Cyclic Host</h2>
+                    </div>
+                </Zoom>
+
             </div>
         </div>
     );

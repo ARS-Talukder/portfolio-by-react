@@ -3,7 +3,7 @@ import { SiInternetexplorer, SiGithub } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 
-const Project1 = () => {
+const Project2 = () => {
     const project = {
         project_name: "ARS Car Parts",
         project_title: "A modern website for the parts of car management",
@@ -112,4 +112,4 @@ const Project1 = () => {
     );
 };
 
-export default Project1;
+export default Project2;

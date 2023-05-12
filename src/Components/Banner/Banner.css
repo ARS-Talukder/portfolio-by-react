@@ -1,14 +1,56 @@
+.banner-img-div {
+    border: 3px solid #ed9d7b;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume_button {
+    background-color: #fb923c;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.resume_button:hover {
+    color: rgb(237, 236, 236);
+}
+
+
+.about_text {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.about_text:nth-child(odd){
+    background: linear-gradient(90deg, hsla(341, 85%, 68%, 1) 51%, hsla(358, 78%, 62%, 1) 100%);
+
+}
+.about_text:nth-child(even){
+    background: linear-gradient(90deg, hsla(27, 96%, 61%, 1) 44%, hsla(358, 78%, 62%, 1) 100%);
+
+}
+
 @media only screen and (max-width: 640px) {
     .banner-img-div {
-        border: 2px solid red;
+        border: 2px solid #ed9d7b;
         width: 100%;
         margin-top: 70px;
-        padding-top: 4px;
+        display: flex;
+        justify-content: center;
     }
-    .banner-img-div img{
-        
-        width: 100%;
-        position: relative;
-        right: 22px;
+
+    .banner-img-div img {
+        margin-right: 5px;
     }
 }
