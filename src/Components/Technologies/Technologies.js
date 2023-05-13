@@ -11,10 +11,10 @@ import Zoom from 'react-reveal/Zoom';
 
 const Technologies = () => {
     return (
-        <div className='mx-8 mb-4'>
-            <h3 className='text-2xl font-bold my-10 underline text-red-600'>Technologies what I know</h3>
+        <div className='px-8 tech_div'>
+            <h2 style={{ color: "#ed9d7b" }} className='text-4xl font-bold underline mt-20 mb-20 pt-16'>Technologies what I know</h2>
 
-            <div className='grid lg:grid-cols-4 gap-16 mt-12'>
+            <div className='grid lg:grid-cols-4 gap-16 pb-32'>
                 <Zoom>
                     <div className='border-style'>
                         <p className='text-center'><span className='text-7xl' style={{ "color": "#dd4b25", "display": "inline-block" }}><DiHtml5 /></span></p>
@@ -123,7 +123,7 @@ const Technologies = () => {
 
                 <Zoom>
                     <div className='border-style'>
-                        <p className='text-center'><span className='text-7xl' style={{ "color": "black", "display": "inline-block" }}><BsGithub /></span></p>
+                        <p className='text-center'><span className='text-7xl text-gray-400' style={{ "display": "inline-block" }}><BsGithub /></span></p>
                         <h2 className='text-xl text-gray-300 font-bold mt-4'>GitHub</h2>
                     </div>
                 </Zoom>

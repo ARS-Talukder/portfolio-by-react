@@ -2,6 +2,8 @@ import React from 'react';
 import { SiInternetexplorer, SiGithub } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
+import './Projects.css';
+import { GoPrimitiveDot } from "react-icons/go";
 
 const Project1 = () => {
     const project = {
@@ -42,16 +44,16 @@ const Project1 = () => {
         <div className='p-4 relative'>
             {/* -----------------Top Section------------------- */}
             <section>
-                <h2 className='text-2xl text-orange-400 font-bold underline'>{project.project_name}</h2>
-                <p className='text-gray-200 font-bold my-0'>{project.project_title}</p>
-                <p className='text-gray-200 my-0'><small>{project.project_category}</small></p>
+                <h2 className='text-3xl text-orange-400 font-bold underline'>{project.project_name}</h2>
+                <p className='text-gray-400 font-bold my-0'>{project.project_title}</p>
+                <p className='text-gray-400 mb-4 font-bold'><small>{project.project_category}</small></p>
             </section>
 
             {/* -----------------Image Section------------------- */}
-            <section className='grid lg:grid-cols-2 gap-12 lg:px-12'>
+            <section className='grid lg:grid-cols-2 gap-10 lg:px-12'>
                 {project.images.map(i =>
                     <Slide left key={i._id}>
-                        <div className='p-2 lg:w-full border project-img mx-auto my-2'>
+                        <div className='p-2 lg:w-full border border-2 rounded-md mx-auto'>
                             <img src={i.img} alt="project_picture" />
                         </div>
                     </Slide>
@@ -61,11 +63,17 @@ const Project1 = () => {
 
             {/* -----------------Feature Section------------------- */}
             <section className='mt-8 mb-4 px-1 lg:px-24 md:px-8'>
-                <p className=' text-red-600 font-bold text-xl text-2xl my-2 underline'>Features Of this Site</p>
+                <p style={{ color: "#ed9d7b" }} className='text-4xl font-bold underline my-2'>Features Of this Site</p>
                 <div className='flex justify-center'>
                     <div>
                         {
-                            project.features.map(f => <li key={f._id} className='text-white text-left'>{f.feature}</li>)
+                            project.features.map(f =>
+                                <Slide left key={f._id}>
+                                    <div className='project_text'>
+                                        <GoPrimitiveDot className='text-white mt-1 mr-2'></GoPrimitiveDot>
+                                        <p>{f.feature}</p>
+                                    </div>
+                                </Slide>)
                         }
                     </div>
                 </div>
@@ -76,7 +84,7 @@ const Project1 = () => {
                 <div className='mt-4 my-2'>
                     <button>
                         <a href={project.website_link} target="_blank" rel="noreferrer">
-                            <button className='btn bg-gradient-to-r from-orange-400 to-red-500 text-black'>
+                            <button className='link_button'>
                                 <span className='mr-2 text-xl' style={{ "color": "#1db5e7" }}>
                                     <SiInternetexplorer />
                                 </span>
@@ -88,7 +96,7 @@ const Project1 = () => {
                 <div className=' mt-4'>
                     <button>
                         <a href={project.client_side_link} target="_blank" rel="noreferrer">
-                            <button className='btn bg-gradient-to-r from-orange-400 to-red-500 text-black'>
+                            <button className='link_button'>
                                 <span className='mr-2 text-2xl' style={{ "color": "#1a1e22" }}>
                                     <SiGithub />
                                 </span>
@@ -100,7 +108,7 @@ const Project1 = () => {
                 <div className=' mt-4'>
                     <button>
                         <a href={project.server_side_link} target="_blank" rel="noreferrer">
-                            <button className='btn bg-gradient-to-r from-orange-400 to-red-500 text-black'>
+                            <button className='link_button'>
                                 <span className='mr-2 text-2xl' style={{ "color": "#1a1e22" }}>
                                     <SiGithub />
                                 </span>
@@ -114,7 +122,7 @@ const Project1 = () => {
             {/* -----------------Link Button Section------------------- */}
             <section>
                 <div className='absolute right-0 bottom-0'>
-                    <Link to="/project2" className='btn  bg-gradient-to-r from-orange-400 to-red-500 text-black'>Next</Link>
+                    <Link to="/project2" className='link_button'>Next</Link>
                 </div>
             </section>
 

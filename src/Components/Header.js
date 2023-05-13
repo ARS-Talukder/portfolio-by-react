@@ -12,7 +12,7 @@ const Header = () => {
 
     </>
     return (
-        <div className="navbar text-neutral-content h-14" style={{ "backgroundColor": "#ed9d7b" }}>
+        <div className="navbar text-neutral-content h-14" style={{ "backgroundColor": "#ed9d7b" }} id='header'>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">

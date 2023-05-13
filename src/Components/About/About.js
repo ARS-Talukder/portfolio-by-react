@@ -18,7 +18,7 @@ const About = () => {
             <div className='flex justify-center'>
                 <div className='mt-6'>
                     {
-                        about.map(a => <Slide left key={a._id}><div className='about_text'><p>{a.point}</p></div></Slide>)
+                        about.map(a => a._id % 2 === 0 ? <Slide left key={a._id}><div className='about_text'><p>{a.point}</p></div></Slide> : <Slide right key={a._id}><div className='about_text'><p>{a.point}</p></div></Slide>)
                     }
 
                 </div>
