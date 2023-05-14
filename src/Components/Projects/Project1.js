@@ -49,6 +49,16 @@ const Project1 = () => {
                 <p className='text-gray-400 mb-4 font-bold'><small>{project.project_category}</small></p>
             </section>
 
+            {/* -----------------Video Section------------------- */}
+            <section>
+                <div className='flex justify-center'>
+                    <iframe title="Overview of The Golden Style" src="https://drive.google.com/file/d/1h2d58JDTr6ponA8g_VO5KUHW--WQRN6z/preview" className='w-full lg:w-1/2 h-56 lg:h-80 md:h-96' allow="autoplay; fullscreen"></iframe>
+                </div>
+                <p className='text-xl text-gray-700 underline mt-1 mb-8'>Overview video of this project</p>
+
+                {/* https://drive.google.com/file/d/1h2d58JDTr6ponA8g_VO5KUHW--WQRN6z/view?usp=share_link */}
+            </section>
+
             {/* -----------------Image Section------------------- */}
             <section className='grid lg:grid-cols-2 gap-10 lg:px-12'>
                 {project.images.map(i =>
