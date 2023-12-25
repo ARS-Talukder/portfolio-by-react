@@ -14,7 +14,7 @@ const Project2 = () => {
         client_side_link: "https://github.com/ARS-Talukder/ars-car-parts-client-side",
         server_side_link: "https://github.com/ARS-Talukder/ars-car-parts-server-side",
         images: [
-            { _id: 1, img: "https://i.ibb.co/dPzpgzt/project-1.png" },
+            { _id: 1, img: "https://i.ibb.co/B3kDggC/project-1.png" },
             { _id: 2, img: "https://i.ibb.co/vh0398Q/project-1-d.png" },
             { _id: 3, img: "https://i.ibb.co/J2bjfRy/project-1-e.png" }
         ],
