@@ -7,23 +7,29 @@ import { GoPrimitiveDot } from "react-icons/go";
 
 const Project2 = () => {
     const project = {
-        project_name: "ARS Car Parts",
-        project_title: "A modern website for the parts of car management",
-        project_category: "This is Full Stack Website",
-        website_link: "https://ars-car-parts.web.app/",
-        client_side_link: "https://github.com/ARS-Talukder/ars-car-parts-client-side",
-        server_side_link: "https://github.com/ARS-Talukder/ars-car-parts-server-side",
+        project_name: "Shop Online",
+        project_title: "E-commerce Website",
+        project_category: "Full Stack Website",
+        website_link: "https://shop-online0.netlify.app/",
+        client_side_link: "https://github.com/ARS-Talukder/shop_online_client_side",
+        server_side_link: "https://github.com/ARS-Talukder/shop_online_server_side",
         images: [
-            { _id: 1, img: "https://i.ibb.co/B3kDggC/project-1.png" },
-            { _id: 2, img: "https://i.ibb.co/vh0398Q/project-1-d.png" },
-            { _id: 3, img: "https://i.ibb.co/J2bjfRy/project-1-e.png" }
+            { _id: 1, img: "https://i.ibb.co.com/YkrCsFs/Shop-online-1.png" },
+            { _id: 2, img: "https://i.ibb.co.com/bXK5bXw/Shop-online-2.png" },
+            { _id: 3, img: "https://i.ibb.co.com/TrTp9fX/Shop-online-3.png" },
+            { _id: 4, img: "https://i.ibb.co.com/KWpF16y/Shop-online-4.png" },
+            { _id: 5, img: "https://i.ibb.co.com/CHk9jtb/Shop-online-5.png" },
+            { _id: 6, img: "https://i.ibb.co.com/ypPN0Sq/Shop-online-6.png" },
+            { _id: 7, img: "https://i.ibb.co.com/prrk0G0/Shop-online-7.png" },
+            { _id: 8, img: "https://i.ibb.co.com/wSMhRNt/Shop-online-8.png" },
+            { _id: 9, img: "https://i.ibb.co.com/cwdJY4j/Shop-online-9.png" }
         ],
         features: [
-            { _id: 1, feature: "On this website, user can place order and can see own profile." },
-            { _id: 2, feature: "Admin can add product, delete product, manage order. " },
-            { _id: 3, feature: "User can give review of products." },
-            { _id: 4, feature: "User also can see own profile and update that." },
-            { _id: 5, feature: "User Authentication has been implemented by using Firebase." }
+            { _id: 1, feature: "User Authentication has been implemented by using Firebase." },
+            { _id: 2, feature: "Customers can place order without any hassle like register/login" },
+            { _id: 3, feature: "Customers can see their order details from dashboard. Dashboard will be visible when customers'll login in the site" },
+            { _id: 4, feature: "Admin can see all the orders with date & other information also can see all the customers information." },
+            { _id: 5, feature: "Admin can add/remove products & categories." },
         ]
     }
 
@@ -33,7 +39,7 @@ const Project2 = () => {
             <section>
                 <h2 className='text-3xl text-orange-400 font-bold underline'>{project.project_name}</h2>
                 <p className='text-gray-400 font-bold my-0'>{project.project_title}</p>
-                <p className='text-gray-400 font-bold mb-4'><small>{project.project_category}</small></p>
+                <p className='text-gray-400 mb-4 font-bold'><small>{project.project_category}</small></p>
             </section>
 
             {/* -----------------Image Section------------------- */}
@@ -49,7 +55,7 @@ const Project2 = () => {
             </section>
 
             {/* -----------------Feature Section------------------- */}
-            <section className='mt-8 mb-4'>
+            <section className='mt-8 mb-4 px-1 lg:px-24 md:px-8'>
                 <p style={{ color: "#ed9d7b" }} className='text-4xl font-bold underline my-2'>Features Of this Site</p>
                 <div className='flex justify-center'>
                     <div>

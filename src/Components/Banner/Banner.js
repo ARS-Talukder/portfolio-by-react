@@ -10,7 +10,7 @@ const Banner = () => {
 
     }
     return (
-        <div className='pt-8 lg:flex flex-row-reverse mx-8 justify-between' id='home'>
+        <div className='pt-4 lg:flex flex-row-reverse mx-8 justify-between' id='home'>
             <Pulse>
                 <div className='lg:mt-24  lg:w-3/5'>
                     <h1 className='text-2xl mb-4 lg:text-5xl text-left lg:mb-6 text-gray-500'>A Dedicated & Passionate</h1>

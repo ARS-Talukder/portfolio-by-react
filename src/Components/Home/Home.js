@@ -6,7 +6,6 @@ import Projects from '../Projects/Projects';
 import Technologies from '../Technologies/Technologies';
 import Footer from './Footer';
 import ContactOthers from '../Mailer/ContactOthers';
-import LetsChat from '../Mailer/LetsChat';
 
 const Home = () => {
     return (
@@ -17,7 +16,6 @@ const Home = () => {
             <Projects></Projects>
             <Mailer></Mailer>
             <ContactOthers></ContactOthers>
-            <LetsChat></LetsChat>
             <Footer></Footer>
         </div>
     );

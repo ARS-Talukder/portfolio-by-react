@@ -7,46 +7,62 @@
         "website_link": "https://the-golden-style.web.app/",
         "client_side_link": "https://github.com/ARS-Talukder/the-golden-style-client-side",
         "server_side_link": "https://github.com/ARS-Talukder/the-golden-style-server",
-        "home_image": "https://i.ibb.co/LPyzC6Z/project-the-golden-style-1.png"
+        "home_image": "https://i.ibb.co.com/jVfN3Vq/The-golden-style-pc.jpg",
+        "home_image_2": "https://i.ibb.co.com/xFngsY4/The-golden-style-mobile.jpg"
     },
     {
         "_id": 2,
+        "project_name": "Shop Online",
+        "project_title": "E-commerce Website",
+        "project_category": "Full Stack Website",
+        "website_link": "https://shop-online0.netlify.app/",
+        "client_side_link": "https://github.com/ARS-Talukder/shop_online_client_side",
+        "server_side_link": "https://github.com/ARS-Talukder/shop_online_server_side",
+        "home_image": "https://i.ibb.co.com/bzh8MBf/Shop-online-pc.jpg",
+        "home_image_2": "https://i.ibb.co.com/7NzVS0c/Shop-online-mobile.jpg"
+    },
+    {
+        "_id": 3,
         "project_name": "ARS Car Parts",
         "project_title": "A modern website for the parts of car management",
         "project_category": "This is a Full Stack Website",
         "website_link": "https://ars-car-parts.web.app/",
         "client_side_link": "https://github.com/ARS-Talukder/ars-car-parts-client-side",
         "server_side_link": "https://github.com/ARS-Talukder/ars-car-parts-server-side",
-        "home_image": "https://i.ibb.co/B3kDggC/project-1.png"
+        "home_image": "https://i.ibb.co.com/wzjyS0R/Ars-car-parts-pc.jpg",
+        "home_image_2": "https://i.ibb.co.com/KzD8HtD/Ars-car-parts-mobile.jpg"
     },
     {
-        "_id": 3,
+        "_id": 4,
         "project_name": "School Entry",
         "project_title": "A website for student entry",
         "project_category": "This is also a Full Stack Website",
         "website_link": "https://school-entry.netlify.app/",
         "client_side_link": "https://github.com/ARS-Talukder/school-entry",
         "server_side_link": "https://github.com/ARS-Talukder/school-entry-server",
-        "home_image": "https://i.ibb.co/2M6N5pK/school-entry-1.png"
+        "home_image": "https://i.ibb.co.com/hZgR1Lq/School-entry-pc.jpg",
+        "home_image_2": "https://i.ibb.co.com/bW6cmC5/School-entry-mobile.jpg"
     },
     {
-        "_id": 4,
+        "_id": 5,
         "project_name": "Electronics Warehouse",
         "project_title": "A website for Electronics Gadgets stock management",
         "project_category": "This is also a Full Stack Website",
         "website_link": "https://warehouse-6cdc6.web.app/",
         "client_side_link": "https://github.com/ARS-Talukder/warehouse-client-side",
         "server_side_link": "https://github.com/ARS-Talukder/warehouse-serverr-side",
-        "home_image": "https://i.ibb.co/2YSzX4t/project-2.png"
+        "home_image": "https://i.ibb.co.com/8B0dzcD/Eletronics-warehouse-pc.jpg",
+        "home_image_2": "https://i.ibb.co.com/19jFjpW/Eletronics-warehouse.jpg"
     },
     {
-        "_id": 5,
+        "_id": 6,
         "project_name": "Smile Dental Care",
         "project_title": "A modern website for dental care and patient management",
         "project_category": "This is Front-End Website",
         "website_link": "https://assignment-10-5a266.web.app/",
         "client_side_link": "https://github.com/ARS-Talukder/smile-dental-care",
         "server_side_link": "not full stack",
-        "home_image": "https://i.ibb.co/27hm13g/project-3.png"
+        "home_image": "https://i.ibb.co.com/QCx42cB/Smile-dental-care-pc.jpg",
+        "home_image_2": "https://i.ibb.co.com/mqvW8PX/Smile-dental-mobile.jpg"
     }
 ]

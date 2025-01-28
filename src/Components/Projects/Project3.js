@@ -5,24 +5,28 @@ import Slide from 'react-reveal/Slide';
 import './Projects.css';
 import { GoPrimitiveDot } from "react-icons/go";
 
-const Project3 = () => {
+const Project2 = () => {
     const project = {
-        project_name: "School Entry",
-        project_title: "A website for student entry",
-        project_category: "This is a Full Stack Website",
-        website_link: "https://school-entry.netlify.app/",
-        client_side_link: "https://github.com/ARS-Talukder/school-entry",
-        server_side_link: "https://github.com/ARS-Talukder/school-entry-server",
+        project_name: "ARS Car Parts",
+        project_title: "A modern website for the parts of car management",
+        project_category: "This is Full Stack Website",
+        website_link: "https://ars-car-parts.web.app/",
+        client_side_link: "https://github.com/ARS-Talukder/ars-car-parts-client-side",
+        server_side_link: "https://github.com/ARS-Talukder/ars-car-parts-server-side",
         images: [
-            { _id: 1, img: "https://i.ibb.co/2M6N5pK/school-entry-1.png" },
-            { _id: 2, img: "https://i.ibb.co/0nkMtST/school-entry-2.png" }
+            { _id: 1, img: "https://i.ibb.co/B3kDggC/project-1.png" },
+            { _id: 2, img: "https://i.ibb.co/vh0398Q/project-1-d.png" },
+            { _id: 3, img: "https://i.ibb.co/J2bjfRy/project-1-e.png" }
         ],
         features: [
-            { _id: 1, feature: "On this website, user can add, delete students." },
-            { _id: 2, feature: "User can also edit students information." },
-            { _id: 3, feature: "User Authentication has been implemented by using Firebase." }
+            { _id: 1, feature: "On this website, user can place order and can see own profile." },
+            { _id: 2, feature: "Admin can add product, delete product, manage order. " },
+            { _id: 3, feature: "User can give review of products." },
+            { _id: 4, feature: "User also can see own profile and update that." },
+            { _id: 5, feature: "User Authentication has been implemented by using Firebase." }
         ]
     }
+
     return (
         <div className='p-4 relative'>
             {/* -----------------Top Section------------------- */}
@@ -49,7 +53,7 @@ const Project3 = () => {
                 <p style={{ color: "#ed9d7b" }} className='text-4xl font-bold underline my-2'>Features Of this Site</p>
                 <div className='flex justify-center'>
                     <div>
-                    {
+                        {
                             project.features.map(f =>
                                 <Slide left key={f._id}>
                                     <div className='project_text'>
@@ -116,4 +120,4 @@ const Project3 = () => {
     );
 };
 
-export default Project3;
+export default Project2;

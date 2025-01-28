@@ -15,15 +15,21 @@ const Projects = () => {
 
     return (
         <div className='px-4 lg:px-8' id='projects'>
-            <h2 style={{ color: "#ed9d7b" }} className='text-4xl font-bold underline pt-8 lg:mb-8'>My Projects</h2>
+            <h2 style={{ color: "#ed9d7b" }} className='text-4xl font-bold underline pt-8'>My Projects</h2>
+            <p className='text-gray-500 font-bold'><small>Take a look at the frontend, backend and full-stack projects I have built or worked on for work and fun!</small></p>
 
             {
                 projects.map(p =>
                     <div>
                         <div key={p._id} className='lg:flex px-4 py-8 lg:my-8'>
                             <Slide left>
-                                <div className='p-2 lg:w-1/2 border border-2 rounded-md'>
-                                    <img src={p.home_image} alt={p.project_name} />
+                                <div className='p-2 lg:w-1/2 lg:flex justify-center text-center'>
+                                    <div className='flex justify-center'>
+                                        <img src={p.home_image} width={400} alt={p.project_name} />
+                                    </div>
+                                    <div className='flex justify-center'>
+                                        <img src={p.home_image_2} width={200} alt={p.project_name} />
+                                    </div>
                                 </div>
                             </Slide>
 

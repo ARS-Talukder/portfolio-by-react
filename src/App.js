@@ -9,6 +9,8 @@ import Project2 from './Components/Projects/Project2';
 import Project3 from './Components/Projects/Project3';
 import Project4 from './Components/Projects/Project4';
 import Project5 from './Components/Projects/Project5';
+import Project6 from './Components/Projects/Project6';
+import Whatsapp from './Components/Whatsapp';
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
         <Route path='/project3' element={<Project3></Project3>}></Route>
         <Route path='/project4' element={<Project4></Project4>}></Route>
         <Route path='/project5' element={<Project5></Project5>}></Route>
+        <Route path='/project6' element={<Project6></Project6>}></Route>
         <Route path='/nextProject' element={<NextProject></NextProject>}></Route>
       </Routes>
+      <Whatsapp></Whatsapp>
     </div>
   );
 }
