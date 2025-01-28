@@ -6,7 +6,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 const ContactOthers = () => {
     return (
-        <div className='h-8 mt-1 pt-0'>
+        <div className='pt-0'>
             <div className='flex justify-center items-center'>
                 {/* ----------Facebook---------- */}
                 <p className='mx-2'>
@@ -49,10 +49,10 @@ const ContactOthers = () => {
                 </p>
             </div>
 
-            <div>
+            <div className='mb-8'>
                 <p>+880 1629-396785</p>
                 <p>abdurrahman1813007@gmail.com</p>
-                <p>Dhaka, Bangladesh</p>
+                <p>Shyamoli, Dhaka, Bangladesh</p>
             </div>
         </div>
 
